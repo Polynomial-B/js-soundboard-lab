@@ -11,7 +11,6 @@ body {
 }
 
 #player div {
-  background-image: "https://images.pexels.com/photos/13202977/pexels-photo-13202977.jpeg";
   display: inline-block;
   width: 111px;
   height: 111px;
@@ -24,6 +23,7 @@ body {
   text-align: center;
   position: relative;
   border: 2px solid #222;
+  border-radius: 5px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -33,21 +33,23 @@ body {
 }
 
 #player div:hover {
-  background-color: rgb(24, 190, 129);
+  background-color: rgb(79, 199, 218);
   color: rgba(255, 255, 255, 0.8);
 }
 
 #player div:active {
-  background: rgb(255, 0, 255);
+  background: rgb(255, 99, 255);
+  border: 2px solid red;
   transition: 0.2s;
 }
+
 
 #randomizer {
   margin-top: 30px;
   width: 120px;
   padding: 20px;
-  background-color: rgb(208, 215, 10);
-  border: 2px solid black;
+  background-color: rgb(250, 255, 110);
+  border: 1px solid rgb(119, 119, 119);
   font-family: 'Exo 2', sans-serif;
   border-radius: 20px;
   position: relative;
@@ -61,15 +63,23 @@ body {
 }
 
 #randomizer:hover {
-  background-color: black;
+  background-color: rgb(34, 34, 34);
   color: rgb(163, 52, 253);
+  border: 1px solid rgb(41, 41, 41)
 }
 
-#play-8 {
+#extra-buttons button:active {
+  background: rgb(255, 99, 255);
+  border: 1px solid red;
+  color: rgb(255, 199, 255);
+  }
+
+
+#lazy-play {
   margin-top: 30px;
   padding: 20px;
-  background-color: rgb(208, 215, 10);
-  border: 2px solid black;
+  background-color: rgb(250, 255, 110);
+  border: 1px solid rgb(119, 119, 119);
   width: 120px;
   font-family: 'Exo 2', sans-serif;
   border-radius: 20px;
@@ -83,7 +93,30 @@ body {
   user-select: none;
 }
 
-#play-8:hover {
-  background-color: black;
+#lazy-play:hover {
+  background-color: rgb(34, 34, 34);
   color: rgb(163, 52, 253);
+  border: 1px solid rgb(41, 41, 41)
 }
+
+/* #secret-noise {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(48, 48, 47);
+  border: 2px solid rgb(48, 48, 47);
+  width: 10px;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 20px;
+  position: inline-block;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#secret-noise:hover {
+  background-color: rgb(55, 55, 55);
+} */
