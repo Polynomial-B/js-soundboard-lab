@@ -1,7 +1,7 @@
 body {
   max-width: 500px;
   margin: 0 auto;
-  background-color: #fafafa;
+  background-color: #313131;
   font-family: 'Exo 2', sans-serif;
   display: flex;
   justify-content: center;
@@ -11,11 +11,12 @@ body {
 }
 
 #player div {
+  background-image: "https://images.pexels.com/photos/13202977/pexels-photo-13202977.jpeg";
   display: inline-block;
   width: 111px;
   height: 111px;
   line-height: 111px;
-  color: #ea422c;
+  color: #d3bcb9;
   margin: 4px 2px;
   text-decoration: none;
   font-size: 1.2em;
@@ -23,22 +24,66 @@ body {
   text-align: center;
   position: relative;
   border: 2px solid #222;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #player div:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(24, 190, 129);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#player div:active {
+  background: rgb(255, 0, 255);
+  transition: 0.2s;
 }
 
 #randomizer {
   margin-top: 30px;
+  width: 120px;
   padding: 20px;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(208, 215, 10);
   border: 2px solid black;
   font-family: 'Exo 2', sans-serif;
+  border-radius: 20px;
+  position: relative;
+  position: inline-block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #randomizer:hover {
   background-color: black;
-  color: white;
+  color: rgb(163, 52, 253);
+}
+
+#play-8 {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(208, 215, 10);
+  border: 2px solid black;
+  width: 120px;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 20px;
+  position: inline-block;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#play-8:hover {
+  background-color: black;
+  color: rgb(163, 52, 253);
 }
